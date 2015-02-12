@@ -105,22 +105,145 @@ div ul{
 #sidebar #side_1 dl dd{
 	padding-top: 5px;
 }
-#sidebar side_1 a{
+#sidebar #side_1 a {
 	text-decoration: none;
 	color: #333;
 	font-size: 12px;
-}
-img {
-	border: medium none;
 }
 #side_2{
 	text-indent: 2em;
 	font-size: 12px;
 	line-height: 150%;
-	text-align: justify; /* 文字两端对齐 */
+	text-align: justify;
 	padding: 5px;
 }
-
-
-
-
+#content{
+	width: 720px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#content #con_1 {
+	width: 470px;
+	float: left;
+	background: none repeat scroll 0% 0% #E1E0CC;
+}
+#content .l_con_1 {
+	padding: 10px 20px;
+	text-align: justify;
+	border: 1px solid #CCC;
+	height: 130px;
+}
+#content .l_con_2 input{
+	height: 20px;
+	vertical-align: middle;
+}
+#content .l_con_2{
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+#content .con_list {
+	color: #839B2E;
+	border: 1px solid #ccc;
+	
+}
+#content .l_con_3 li{
+	width: 430px;
+}
+.con_list li{
+	height:25px;
+	line-height: 25px;
+	padding-left: 15px;
+	border-bottom: 1px dashed #CCC;  /* 下边框 虚线组成 */
+	white-space: nowrap;  /* 空白部分 不换行 */
+	overflow: hidden;    /* 超出部分  隐藏 */
+}
+#content .l_con_3 .time{
+	float: right;
+	color: #999;
+}
+.con_list ul a{
+	color: #839B2E;
+	text-decoration:none;
+	width: 190px;
+}
+.nav-title-right .more{
+	float: left;
+	margin-top: 10px;
+	color: #D5D4C0;
+	font: 12px Verdana,Arial,Tahoma;
+	text-decoration: none;
+	
+}
+.clear{
+	clear: both;
+}
+#con_3{
+	border: 1px solid #CCC;
+	background:  none repeat scroll 0% 0% #E1E0CC;
+}
+#content .con_photo{
+    height: 137px;
+    padding: 15px;
+    overflow: hidden;
+    position: relative; /* 相对定位 */
+}
+.con_photo{
+	height: 137px;
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.con_photo .LeftButton{
+	background: url("../images/left.gif") no-repeat scroll 0px 15px #CCC ;
+	left: 5px;
+	float: left;
+	width: 17px;
+	cursor:pointer; /* 光标手状 */
+	position: absolute;
+	top: 40px;
+	height: 50px;
+}
+.con_photo .RightButton{
+    background: url("../images/right.gif") no-repeat scroll 0px 15px #CCC;
+    right: 5px;
+    float: right;
+    width: 17px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    height: 50px;
+}
+.con_photo .Cont{
+	margin: 0px auto;
+	padding: 5px;
+}
+.con_photo .box{
+	float: left;
+	width:160px;
+	text-align: center;
+}
+.con_photo a{
+	text-decoration: none; /* 取消下划线 */
+}
+.con_photo .box img{
+	border: 1px solid #ADD2FC;
+	padding: 3px;
+	display: block; /* 让对象成为块级元素 */
+	background: none repeat scroll 0% 0% #FFF; /* 白色 */
+	margin: 0px auto;
+} 
+.con_photo .box p{
+	margin: 6px auto 0px;
+	width: 97px;
+	line-height: 20px;
+}
+.con_photo .box p a{
+	color: #839B2E;
+}
+.adshow{
+	text-align: center;
+	line-height: 100%;
+	margin: 0px 0px;
+} 
