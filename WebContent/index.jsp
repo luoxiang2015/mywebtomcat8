@@ -23,7 +23,7 @@
 <li><a href="photo.jsp">相册</a></li>
 <li><a href="downlist.jsp">资源</a></li>
 <li><a href="link.jsp">收藏</a></li>
-<li><a href="map.jsp">旅行</a></li>
+<li><a href="map.html">旅行</a></li>
 <li><a href="post.jsp">留言</a></li>
 <li><a href="myself.jsp">关于我</a></li>
 </ul>
