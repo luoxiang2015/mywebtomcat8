@@ -307,11 +307,10 @@
 			</div>
 
 		</div>
-
-<div class="adshow">
+		<div style="clear:both;"></div>
+<div class="adshow_2">
 				<div id="StarIframe_wrapper_11">广告位</div>
 			</div>
-
 	</div>
 </body>
 </html>

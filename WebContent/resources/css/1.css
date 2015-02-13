@@ -242,8 +242,9 @@ div ul{
 .con_photo .box p a{
 	color: #839B2E;
 }
-.adshow{
+.adshow_2{
 	text-align: center;
 	line-height: 100%;
-	margin: 0px 0px;
+	height: 60px;
+	background-color: gray;
 } 
