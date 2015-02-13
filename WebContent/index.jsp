@@ -76,7 +76,7 @@
 			</div>
 			<!-- 天气插件  <script type="text/javascript" src="http://ext.weather.com.cn/87980.js"></script> -->
 			<div id="side_1">
-				<div >
+				<div>
 					<iframe src="http://ext.weather.com.cn/44053.html" scrolling="no"
 						style="z-index: 99999; width: 190px; height: 170px; border: 0px none;"
 						frameborder="0"></iframe>
@@ -307,10 +307,110 @@
 			</div>
 
 		</div>
-		<div style="clear:both;"></div>
-<div class="adshow_2">
-				<div id="StarIframe_wrapper_11">广告位</div>
+		<div style="clear: both;"></div>
+		<!-- 广告位 -->
+		<div class="adshow_2">
+			<div id="StarIframe_wrapper_11">广告位</div>
+		</div>
+		<!-- 三列并排 -->
+		<!-- 修改span时去 1.css 中删除  .con_4 .con_list li 属性。 -->
+		<div class="con_4">
+			<!-- 心情日记 -->
+			<div class="con_list" style="float: left; width: 315px;">
+				<div class="nav-title">
+					<div class="nav-title-lift">心情日记</div>
+					<div class="nav-title-right">
+						<a class="more" href="blog.jsp">更多...</a>
+					</div>
+				</div>
+				<ul>
+					<li><span class="num-top">1</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">2</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">3</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">4</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">5</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">6</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">7</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">8</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">9</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">10</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+				</ul>
 			</div>
+			<!-- 工作学习 -->
+						<div class="con_list" style="float: left; width: 315px;">
+				<div class="nav-title">
+					<div class="nav-title-lift">工作学习</div>
+					<div class="nav-title-right">
+						<a class="more" href="blog.jsp">更多...</a>
+					</div>
+				</div>
+				<ul>
+					<li><span class="num-top">1</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">2</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">3</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">4</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">5</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">6</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">7</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">8</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">9</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">10</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+				</ul>
+			</div>
+			<!-- 编程趣事 -->
+						<div class="con_list" style="float: left; width: 315px;">
+				<div class="nav-title">
+					<div class="nav-title-lift">编程趣事</div>
+					<div class="nav-title-right">
+						<a class="more" href="blog.jsp">更多...</a>
+					</div>
+				</div>
+				<ul>
+					<li><span class="num-top">1</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">2</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">3</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">4</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">5</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">6</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">7</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">8</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">9</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+					<li><span class="num-top">10</span><a title="测试文字"
+						href="**.jsp?id=123">测试文字测试文字 </a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- <div style="clear: both;"> </div> -->
+		<div class="adshow_3">广告位</div>
 	</div>
 </body>
 </html>
