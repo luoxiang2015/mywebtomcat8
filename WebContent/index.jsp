@@ -206,7 +206,7 @@
 			<div class="adshow"
 				style="width: 720px; height: 90px; background-color: gray;">
 				<p
-					style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位</p>
+					style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位test</p><input type="button" value="点击获取UUID" onclick="uuid()"  />
 			</div>
 			<div class="con_3">
 				<div class="nav-title">
