@@ -1,11 +1,14 @@
 package com.luox2014.action;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.luox2014.util.UuidImple;
 
 /**
  * Servlet implementation class Uuid
@@ -34,8 +37,9 @@ public class Uuid extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		Uuid uuid = new Uuid();
-		uuid.
+		UuidImple uuidImple = new UuidImple();
+		uuidImple.getUuid();
+		
 	}
 
 }

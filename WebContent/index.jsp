@@ -206,8 +206,13 @@
 			<!-- 广告 -->
 			<div class="adshow"
 				style="width: 720px; height: 90px; background-color: gray;">
-				<p
-					style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位test</p> <textarea id="id_uuid"  onclick="uuid()" rows="1" cols="20"></textarea> <button style="height: 15px; width: 35px; " onclick="reset_uuid()"  value="重新获取uuid"></button>
+				<p style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位test</p> 
+				<form method="post" action="uuid2">
+					<textarea id="id_uuid"  onclick="uuid()" rows="1" cols="20"></textarea> 
+					<button style="height: 15px; width: 35px; " onclick="reset_uuid()"  value="重新获取uuid"></button>
+					<input id="input1" name="input1" style=" height: 10px; width: 50px;" />
+					<input type="submit" />
+				</form>
 			</div>
 			<div class="con_3">
 				<div class="nav-title">
@@ -309,7 +314,7 @@
 
 		</div>
 		<div style="clear: both;"></div>
-		<!-- 广告位 -->
+		<!--  -->
 		<div class="adshow_2">
 			<div id="StarIframe_wrapper_11">广告位</div>
 		</div>

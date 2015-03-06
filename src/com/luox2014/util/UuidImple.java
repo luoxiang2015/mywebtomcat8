@@ -2,7 +2,7 @@ package com.luox2014.util;
 
 import java.util.UUID;
 
-public class Uuid {
+public class UuidImple {
 	
 	public String getUuid(){
 		return UUID.randomUUID().toString();
