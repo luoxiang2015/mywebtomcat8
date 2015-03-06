@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="resources/css/1.css">
 <script type="text/javascript" src="resources/js/ScrollPic.js"></script>
+<script type="text/javascript" src="resources/js/general.js"></script>
 <title>小罗的个人博客-我的主页</title>
 </head>
 <body>
@@ -206,7 +207,7 @@
 			<div class="adshow"
 				style="width: 720px; height: 90px; background-color: gray;">
 				<p
-					style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位test</p><input type="button" value="点击获取UUID" onclick="uuid()"  />
+					style="text-align: center; font-size: 25px; color: #000; padding-top: 20px;">广告位test</p> <textarea id="id_uuid"  onclick="uuid()" rows="1" cols="20"></textarea> <button style="height: 15px; width: 35px; " onclick="reset_uuid()"  value="重新获取uuid"></button>
 			</div>
 			<div class="con_3">
 				<div class="nav-title">

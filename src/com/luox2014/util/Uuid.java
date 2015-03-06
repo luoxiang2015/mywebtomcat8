@@ -2,17 +2,16 @@ package com.luox2014.util;
 
 import java.util.UUID;
 
-public class uuid {
+public class Uuid {
 	
 	public String getUuid(){
 		return UUID.randomUUID().toString();
 	}
 
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		uuid uuid = new uuid();
 		System.out.println(uuid.getUuid());
-  
 	}
-
+*/
 }
