@@ -5,13 +5,18 @@
 
 <struts>
 
-    <constant name="struts.devMode" value="true" />
-    <package name="default" namespace="/" extends="struts-default">
-        <action name="hello">
-            <result >
-              /hello.jsp
-            </result>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="default" namespace="/" extends="struts-default">
+
+
+        <action name="getArticleTitleAction" class="com.luox2014.action.GetArticleTitleAction">
+        <result name="success">/不进行跳转</result>
         </action>
-    </package>
+	</package>
+
+
+	<!-- Add packages here -->
 
 </struts>

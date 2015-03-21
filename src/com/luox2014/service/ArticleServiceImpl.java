@@ -14,6 +14,11 @@ public class ArticleServiceImpl implements ArticleService {
 		// TODO Auto-generated method stub
 		return dao.queryArticle(article_id);
 	}
+	@Override
+	public List<Article> queryArticle2(String mark, int num, String sort) {
+		// TODO Auto-generated method stub
+		return dao.queryArticle2( mark, num, sort);
+	}
 
 
 

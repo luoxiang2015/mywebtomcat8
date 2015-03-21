@@ -14,3 +14,19 @@ vlookup 函数  将A表格两列进行合并 B表格同理  拿A表格的某列�
 
 日志 2015-02-27  mysql存储图片
 新建数据库 - 表 存储图片路径
+
+日志 2015-03-22  前后端传值
+struts2 的OGNL表达式可以：public PeopleAction extends ActionSuper{
+private List<People> peopleList; //定义需要传递到页面的list对象 需要提供get set 方法
+get...
+set...
+
+public String getList(){
+peopleList = peopleServer.getList(); //将获取的数据赋值给list
+}
+然后再需要显示的页面使用jstl或者struts自己的标签循环显示
+<c:forEach item="${peopleList}" var="item">
+....
+</c:forEach>
+   
+}

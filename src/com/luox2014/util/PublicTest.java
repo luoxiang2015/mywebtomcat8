@@ -8,8 +8,8 @@ public class PublicTest {
 
 	public static void main(String[] args) {
 		ArticleService a = new ArticleServiceImpl() ;
-		System.out.println(a.queryArticle("1"));
-		
+		System.out.println(a.queryArticle2("adf", 10, "article_date"));
+		//System.out.println(a.queryArticle("1"));
 	}
 	
 }

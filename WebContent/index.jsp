@@ -7,6 +7,10 @@
 <link rel="stylesheet" type="text/css" href="resources/css/1.css">
 <script type="text/javascript" src="resources/js/ScrollPic.js"></script>
 <script type="text/javascript" src="resources/js/general.js"></script>
+<script type="text/javascript">
+
+</script>
+
 <title>小罗的个人博客-我的主页</title>
 </head>
 <body>
