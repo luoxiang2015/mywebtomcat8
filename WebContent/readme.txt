@@ -1,4 +1,4 @@
-源test：
+源：
 http://www.ljlsky.com/
 
 705182 Youxi741
@@ -30,3 +30,18 @@ peopleList = peopleServer.getList(); //将获取的数据赋值给list
 </c:forEach>
    
 }
+
+2015-05-26
+<s:property value='listTime' />会把整个List中的值一起挨个显示出来。
+遍历显示的话还是用，抄一下上面的。
+集合元素需要迭代。
+<s:iterator value="listTime">
+  <p>time is: <s:property/></p>
+</s:iterator>
+
+对于集合里边的属性又可以这样：比如Lista<A> aList = 具体包含数据的ArrayList；A类中有属性aid,aname,
+<s:iterator value="#aList " id="a">
+	<tr>
+		<td><s:property value="#a.aid" /></td>					                <td><s:property value="#a.aname" /></td>
+                </tr>
+ </s:iterator>

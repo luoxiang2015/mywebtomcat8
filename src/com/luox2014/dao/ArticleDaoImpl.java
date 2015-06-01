@@ -5,8 +5,6 @@ import java.util.List;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 import com.luox2014.bean.Article;
 import com.luox2014.util.HibernateTool;
@@ -31,7 +29,7 @@ public class ArticleDaoImpl implements ArticleDao{
 	@Override
 	public List<Article> queryArticle2(String mark, int num, String sort) {
 		// TODO Auto-generated method stub
-		System.out.println("已经进入    ArticleDaoImpl  queryArticle2  方法！");
+		//System.out.println("已经进入    ArticleDaoImpl  queryArticle2  方法！");
 		Session session=null;
 		session =  HibernateTool.getSessionFactory().openSession();
 		Query q = session.createSQLQuery("select * from t_article where article_mark ='"+ mark+"' order by '"+sort+"' desc limit "+num).addEntity(Article.class);
